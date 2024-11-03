@@ -782,10 +782,10 @@
             </div>
         </div>
         <div class="game">
-            <img src="mimines.jpg" alt="Mines Spibe Preview">
+            <img src="qu.png" alt="CoinFlip Preview">
             <div class="game-info">
-                <h3 id="game2-title">Mines Spibe</h3>
-                <button id="game2-button" onclick="openGame('minesSpibe')">Open</button>
+                <h3 id="game-title">Rocket Queen</h3>
+                <button id="game2-button" onclick="openGame('queen')">Open</button>
             </div>
         </div>
         <div class="game">
@@ -1175,7 +1175,7 @@ const translations = {
             document.getElementById('game1-title').innerText = translations[lang].game1Title;
             document.getElementById('game1-button').innerText = translations[lang].game1Button;
 
-            document.getElementById('game2-title').innerText = translations[lang].game2Title;
+
             document.getElementById('game2-button').innerText = translations[lang].game2Button;
 
             document.getElementById('game3-title').innerText = translations[lang].game3Title;
@@ -1597,9 +1597,9 @@ function openGame(game) {
             ios: 'monetka/index.html',
             other: 'monetka/index.html'
         },
-        minesSpibe: {
-            ios: 'minesind/index.html',
-            other: 'minesind/index.html'
+        queen: {
+            ios: 'queen/index.html',
+            other: 'queen/index.html'
         }
     };
             var url = isIOS ? links[game].ios : links[game].other;
