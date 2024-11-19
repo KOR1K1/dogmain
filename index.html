@@ -782,6 +782,13 @@
             </div>
         </div>
         <div class="game">
+            <img src="mimines.jpg" alt="Mines Preview">
+            <div class="game-info">
+                <h3 id="game1-title">Mines Spribe</h3>
+                <button id="game1-button" onclick="openGame('spribe')">Open</button>
+            </div>
+        </div>
+        <div class="game">
             <img src="qu.png" alt="CoinFlip Preview">
             <div class="game-info">
                 <h3 id="game-title">Rocket Queen</h3>
@@ -1564,6 +1571,10 @@ function openGame(game) {
         mines: {
             ios: 'mines/index.html',
             other: 'mines/index.html'
+        },
+        spribe: {
+            ios: 'minesind/index.html',
+            other: 'minesind/index.html'
         },
         royalMines: {
             ios: 'royal/index.html',
